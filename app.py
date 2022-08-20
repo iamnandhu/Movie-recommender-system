@@ -10,6 +10,7 @@ def poster(mov_id):
 
 
 sim=pickle.load(open('similar.pkl','rb'))
+movies_dict=pickle.load(open('dict_movies.pkl','rb'))
 def recommend(mv):
   index=movie[movie['title'] == mv].index[0]
   dist = sim[index]
@@ -23,7 +24,6 @@ def recommend(mv):
     recommended_mov_post.append(poster(mov_id))
   return recommended_mov,recommended_mov_post
 
-movies_dict=pickle.load(open('dict_movies.pkl','rb'))
 movie=pd.DataFrame(movies_dict)
 st.title('Movie Recommendations')
 selected_mov = st.selectbox('Select the movies you are interested in!',movie['title'].values) 
