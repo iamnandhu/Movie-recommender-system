@@ -8,7 +8,7 @@ A simple recommendation system made using [Streamlit](https://docs.streamlit.io/
 
 ## Demo
 
-The project is deployed on Heroku. You can view it here [Movie Recommedation](https://shsnews.org/wp-content/uploads/2016/02/Movie-Night.jpg)
+The project is deployed on Heroku. You can view it here [Movie Recommedation](https://recommend-18.herokuapp.com/)
 
 
 ## How recommendation works!
