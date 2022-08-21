@@ -3,7 +3,7 @@
 A simple recommendation system made using [Streamlit](https://docs.streamlit.io/)
 
 
-![Logo](https://cdn.pixabay.com/photo/2017/06/02/22/01/dog-2367414_960_720.png)
+![Logo](https://github.com/iamnandhu/Movie-recommender-system/blob/master/cinema-and-movie-advertising-background-in-cartoon-vector-11412157.jpg)
 
 
 ## Demo
